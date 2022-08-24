@@ -21,6 +21,7 @@ def merge_sort(nums):
                 nums[k]=right_arr[j]
                 j+=1
             k+=1
+        # to put remaining element at list if i<j or j<i
         while i<len(left_arr):
             nums[k]=left_arr[i]
             i+=1
